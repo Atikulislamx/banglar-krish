@@ -1,0 +1,5 @@
+# Banglar Krrish website
+User-agent: *
+Allow: /
+
+Sitemap: https://atikulislamx.github.io/banglar-krish/sitemap.xml

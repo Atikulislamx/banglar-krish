@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Banglar Krrish</title>
+  <meta name="description" content="Contact Banglar Krrish for interviews, collaborations and media enquiries.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://atikulislamx.github.io/banglar-krish/contact.html">
+  <meta name="theme-color" content="#14251E">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Banglar Krrish">
+  <meta property="og:title" content="Contact | Banglar Krrish">
+  <meta property="og:description" content="Contact Banglar Krrish for interviews, collaborations and media enquiries.">
+  <meta property="og:url" content="https://atikulislamx.github.io/banglar-krish/contact.html">
+  <meta property="og:image" content="https://atikulislamx.github.io/banglar-krish/assets/images/og-image.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | Banglar Krrish">
+  <meta name="twitter:description" content="Contact Banglar Krrish for interviews, collaborations and media enquiries.">
+  <meta name="twitter:image" content="https://atikulislamx.github.io/banglar-krish/assets/images/og-image.webp">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/translations.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main" data-i18n="skip.link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Banglar Krrish — home">
+        <img src="assets/images/favicon.svg" alt="" width="40" height="40">
+        <span class="brand-text"><span class="brand-name">Banglar Krrish</span><span class="brand-bn" lang="bn">বাংলার কৃষ</span></span>
+      </a>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="media.html">Press &amp; Media</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <div class="lang-switch" role="group" aria-label="Content language" data-i18n-attr="aria-label:lang.label">
+          <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="true">English</button>
+          <button type="button" class="lang-btn" data-lang-btn="bn" aria-pressed="false" lang="bn">বাংলা</button>
+        </div>
+        <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero has-art">
+      <div class="container">
+        <h1 data-i18n="contact.title">Contact</h1>
+        <p class="lead" data-i18n="contact.lead">Send an enquiry about interviews, collaborations or media. Your message opens in your email app, addressed to the official contact email.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div>
+          <form id="contact-form" class="form-card" novalidate>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+
+            <div class="field">
+              <label for="name" data-i18n="form.name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" maxlength="100" required aria-describedby="name-error" data-i18n-attr="placeholder:form.placeholder.name">
+              <p class="error" id="name-error"></p>
+            </div>
+
+            <div class="field">
+              <label for="email" data-i18n="form.email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="200" required aria-describedby="email-error" placeholder="you@example.com">
+              <p class="error" id="email-error"></p>
+            </div>
+
+            <div class="field">
+              <label for="subject" data-i18n="form.subject">Subject</label>
+              <input id="subject" name="subject" type="text" maxlength="150" required aria-describedby="subject-error" data-i18n-attr="placeholder:form.placeholder.subject">
+              <p class="error" id="subject-error"></p>
+            </div>
+
+            <div class="field">
+              <label for="message" data-i18n="form.message">Message</label>
+              <textarea id="message" name="message" maxlength="3000" required aria-describedby="message-error" data-i18n-attr="placeholder:form.placeholder.message"></textarea>
+              <p class="error" id="message-error"></p>
+            </div>
+
+            <button type="submit" class="btn btn--gold" data-i18n="form.submit">Open in email app</button>
+
+            <div id="form-fallback" class="fallback-box" aria-live="polite">
+              <h3 data-i18n="form.fallbackTitle">Email app did not open?</h3>
+              <p class="notice-text" id="fallback-note" data-i18n="form.notOpened">If your email app did not open, use the options below to copy the address or message.</p>
+              <p class="email-line" data-contact-email>contact</p>
+              <div class="copy-row">
+                <button type="button" class="btn btn--outline btn--small" id="copy-email" data-i18n="form.copyEmail">Copy email address</button>
+                <button type="button" class="btn btn--outline btn--small" id="copy-message" data-i18n="form.copyMessage">Copy message</button>
+              </div>
+              <p class="copy-live" id="copy-live"></p>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact-aside">
+          <div class="card">
+            <h3 data-i18n="contact.noticeTitle">How this form works</h3>
+            <p data-i18n="contact.noticeBody">This site is hosted on GitHub Pages, which cannot receive form submissions. Pressing the button opens your email app with the message ready. Nothing is sent until you press send in your email app. You need an email app or webmail set up on your device.</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="form.recipient">Recipient</h3>
+            <p class="recipient-email" data-contact-email>contact</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p data-i18n="footer.desc">The official personal-brand website of Mohammad Al Mamun, publicly known as Banglar Krrish. Based on independent media reports and the owner's own account, with links to sources.</p>
+          <p class="footer-disclaimer" data-i18n="footer.disclaimer">This is an independent personal-brand site. It is not affiliated with, endorsed by, or produced by the makers of the Krrish film franchise. YouTube, Meta and the news outlets named here have not verified this website.</p>
+        </div>
+        <div>
+          <h2 data-i18n="footer.navHeading">Explore</h2>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="media.html">Press &amp; Media</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18n="footer.contactHeading">Contact</h2>
+          <ul class="footer-list">
+            <li><a href="contact.html">Contact form</a></li>
+            <li><a href="#" data-contact-mailto>Email</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom"><span data-i18n="footer.copyright">© 2026 Banglar Krrish. All rights reserved.</span></div>
+    </div>
+  </footer>
+</body>
+</html>
